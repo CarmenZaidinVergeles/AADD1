@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AADD1</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="str_botonAñadir">Añadir</string>
+    <string name="str_botonSincronizar">Sincronizar</string>
+
+    <string name="str_hint_nombre">Nombre</string>
+    <string name="str_hint_telefono">Telefono</string>
+
+    <string name="str_menu_contextual_borrar">Borrar</string>
+    <string name="str_menu_contextual_editar">Editar</string>
+
+    <string name="str_dialog_insertar_titulo_dialogo_insertar">Insertar</string>
+    <string name="str_dialog_insertar_positiveButton_insertar">Insertar</string>
+    <string name="str_dialog_insertar_negativeButton_cancelar">Cancelar</string>
+
+    <string name="str_dialog_editar_añadeNuevoNumero">Añade un numero</string>
+    <string name="str_dialog_editar_setTitulo">Editar información</string>
+    <string name="str_dialog_editar_setPositiveButton_aceptarCambios">Aceptar cambios</string>
+    <string name="str_dialog_editar_negativeButton_atras">Atras</string>
+
+
+</resources>
+

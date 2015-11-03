@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:text="@string/str_botonAñadir"
+                android:id="@+id/btAñadir"
+                android:onClick="añadir"
+
+                />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:text="@string/str_botonSincronizar"
+                android:id="@+id/btSincronizar"
+                android:onClick="sincronizar"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="70dp"
+                android:text="LISTA INICIAL"
+                android:onClick="recuperarListaAnterior"/>
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:id="@+id/tvFecha"/>
+
+
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lvlista"
+            android:layout_below="@+id/textView3"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
